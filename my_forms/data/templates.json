@@ -1,0 +1,29 @@
+[
+    {
+        "name": "User Registration Form",
+        "fields": {
+            "user_name": {"type": "text"},
+            "email": {"type": "email"},
+            "phone_number": {"type": "phone"},
+            "birth_date": {"type": "date"}
+        }
+    },
+    {
+        "name": "Order Form",
+        "fields": {
+            "order_id": {"type": "text"},
+            "order_date": {"type": "date"},
+            "lead_email": {"type": "email"},
+            "customer_phone": {"type": "phone"}
+        }
+    },
+    {
+        "name": "Feedback Form",
+        "fields": {
+            "user_name": {"type": "text"},
+            "feedback_date": {"type": "date"},
+            "user_email": {"type": "email"},
+            "comments": {"type": "text"}
+        }
+    }
+]
